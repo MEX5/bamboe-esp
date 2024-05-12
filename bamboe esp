@@ -19,7 +19,7 @@ local WorldToViewport = function(...) return WTVP(Camera, ...) end
 local Menu = {}
 local MouseHeld = false
 local LastRefresh = 0
-local OptionsFile = 'IC3_ESP_SETTINGS.dat'
+local OptionsFile = 'BAMBOE_ESP_SETTINGS.dat'
 local Binding = false
 local BindedKey = nil
 local OIndex = 0
@@ -1589,7 +1589,7 @@ function CreateMenu(NewPosition) -- Create Menu
 	Menu:AddMenuInstance('TopBarTextBR', 'Text', {
 		Size 		= 18;
 		Position	= shared.MenuDrawingData.Instances.TopBarTwo.Position + V2New(BaseSize.X - 75, 25);
-		Text		= 'by ic3w0lf';
+		Text		= 'by BAMBOE';
 		Color		= Colors.Secondary.Light;
 		Visible		= true;
 		Transparency= 1;
